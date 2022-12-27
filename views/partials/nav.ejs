@@ -1,0 +1,23 @@
+<nav id="headerNav">
+    <ul>
+      <li><a href="/" >Accueil</a></li>
+      <li><a href="/bibliographie" id="biog">Bibliographie</a></li>
+      <li><a href="/relations">Relations et influences</a></li>
+      <li><a href="/peinture">Peintures</a></li>
+      <li><a href="/observateur">Observateur, scientifique et inventeur</a></li>
+      <li><a href="/pensee">Pensée</a></li>
+      <li><a href="/posterieur">Postérieur</a></li>
+      <li><a href="/oeuvres">Oeuvres</a></li>
+    </ul>
+</nav>
+
+<nav>
+    <ul class="nav2">
+        <% if(user){%>
+            <li><a href="deconnexion">Déconnexion</a></li>
+        <% }else{ %>
+            <li><a href="connexion">Connexion</a></li>
+            <li><a href="inscription">Inscription</a></li>
+        <% } %>
+    </ul>
+</nav>

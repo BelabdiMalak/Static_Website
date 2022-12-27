@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- preciser la langue et le sens de lecture utilisé -->
+<html lang="fr" dir="ltr" >
+
+    <head>
+
+        <!-- tite du site web -->
+        <title> Personnalités scientifiques : Léonard De vinci</title>
+
+        <!-- spécification d'encodage -->
+        <meta charset="utf-8"/>
+
+        <!-- mots clés utilies pour les robots d'indexation -->
+        <meta name="keywords" content="personnalité scientifique,Léonard De vinci,Léonardo Da vinci,Léonardo,inventeurs,peintres,célébrités"/>
+
+        <!-- balise utiliser pour controler l'affichage de la page selon le media-->
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+
+        <!-- spécification(externe) des styles utilisés -->
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <!-- corps de la page -->
+    <body id="homebody">
+
+        <header >
+            <!-- image clicable -->
+            <a href="https://www.usthb.dz"><img src="/images/usthb_logo.png"></a>
+            <h1>Personnalités scientifiques : Léonard De vinci</h1>
+        </header>
+
+        <nav>
+            <ul  class="nav2">
+                <% if(user){%>
+                    <li><a href="deconnexion">Déconnexion</a></li>
+                <% }else{ %>
+                    <li><a href="connexion">Connexion</a></li>
+                    <li><a href="inscription">Inscription</a></li>
+                <% } %>
+            </ul>
+        </nav>
+
+        <nav class="pagesNav">
+            <ul class="pagesList">
+                <li ><a href="bibliographie">Bibliographie</a></li>
+                <li><a href="relations">Relations et influences</a></li>
+                <li><a href="peinture">Peinture</a></li>
+                <li><a href="pensee">Pensée</a></li>
+                <li><a href="posterieur">Postérieur</a></li>
+                <li><a href="oeuvres">Oeuvres notables</a></li>
+            </ul>
+        </nav>
+    
+
+        <footer id="homeFooter">
+            <table>
+                <tr>
+                    <th>
+                        <img src="/images/gmail.png">
+                    </th>
+                    <td> malakbelabdi@gmail.com</td>
+                    <th>
+                        <img src="/images/github.png">
+                    </th>
+                    <td><a href="https://github.com/BelabdiMalak">BelabdiMalak</a></td>
+                    <th>
+                        <img src="/images/linkedin.png">
+                    </th>
+                    <td><a href="https://www.linkedin.com/in/malak-belabdi-0278b520b/">malak-belabdi-0278b520b</a></td>
+                </tr>
+            </table>
+
+        </footer>
+    </body>
