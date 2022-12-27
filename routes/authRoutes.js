@@ -10,7 +10,7 @@ router.get('/observateur'  , requireAuth, authController.observateur_get);
 router.get('/pensee'       , requireAuth, authController.pensee_get);
 router.get('/posterieur'   , requireAuth, authController.posterieur_get);
 router.get('/oeuvres'      , requireAuth, authController.oeuvres_get);
-router.get('/peinture'  , authController.peinture_get);
+router.get('/peinture'     , authController.peinture_get);
 router.get('/connexion'    , authController.connexion_get);
 router.get('/inscription'  , authController.inscription_get);
 router.get('/deconnexion'  , authController.deconnexion_get);
